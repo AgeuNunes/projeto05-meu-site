@@ -1,0 +1,47 @@
+/* #geometria1 {
+    position: fixed;
+    right: 300px;
+    fill: var(--color-menu);
+}
+
+#geometria2 {
+    position: fixed;
+    left: 580px;
+    bottom: 260px;
+    fill: var(--color-menu);
+}
+
+#geometria3 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    fill: var(--color-background);
+    stroke: var(--color-menu);
+} */
+
+#boxConteudo {
+    margin: 10% 5%;
+}
+
+#boxConteudo h1 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.boxHabilidades {
+    display: flex;
+    justify-content: space-around;
+}
+
+.habilidade {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+.habilidade img {
+    max-width: 80px;
+    height: 80px;
+}

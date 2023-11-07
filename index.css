@@ -1,0 +1,69 @@
+/* #geometria1 {
+    position: fixed;
+    right: 300px;
+    fill: var(--color-primary);
+    animation: slideG1 2s;
+}
+
+@keyframes slideG1 {
+    from {
+        top: -140px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+#geometria2 {
+    position: fixed;
+    left: 580px;
+    bottom: 260px;
+    fill: var(--color-primary);
+    animation: slideG2 2s;
+}
+
+@keyframes slideG2 {
+    from {
+        fill: transparent;
+    }
+
+    to {
+        fill: var(--color-primary);
+    }
+}
+
+#geometria3 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    fill: var(--color-background);
+    stroke: var(--color-primary);
+    animation: slideG3 2s;
+}
+
+@keyframes slideG3 {
+    from {
+        right: -285px;
+    }
+
+    to {
+        right: 0px;
+    }
+} */
+
+h1 {
+    margin-top: 15%;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+h1 b {
+    color: var(--color-primary);
+}
+
+h2 {
+    font-weight: 400;
+    text-align: center;
+}

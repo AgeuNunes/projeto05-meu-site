@@ -1,0 +1,32 @@
+/* #geometria1 {
+    position: fixed;
+    right: 300px;
+    fill: var(--color-menu);
+}
+
+#geometria2 {
+    position: fixed;
+    left: 580px;
+    bottom: 260px;
+    fill: var(--color-menu);
+}
+
+#geometria3 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    fill: var(--color-background);
+    stroke: var(--color-menu);
+} */
+
+#boxConteudo {
+    margin: 10% 5%;
+}
+
+#boxConteudo p {
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 50px;
+    margin-bottom: 5%;
+    line-height: 150%;
+}

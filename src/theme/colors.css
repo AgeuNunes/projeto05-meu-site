@@ -1,0 +1,31 @@
+:root {
+    --color-background: #050E19;
+    --color-menu: #071222;
+    --color-text: #E2EBF9;
+    --color-primary: #0D7CDE;
+    --color-secondary: #34D2FE;
+}
+
+lightBlue {
+    --color-background: #FFF;
+    --color-menu: #F3F3F3;
+    --color-text: #1B0B04;
+    --color-primary: #0D7CDE;
+    --color-secondary: #34D2FE;
+}
+
+darkBlue {
+    --color-background: #050E19;
+    --color-menu: #071222;
+    --color-text: #E2EBF9;
+    --color-primary: #0D7CDE;
+    --color-secondary: #34D2FE;
+}
+
+darkGreen {
+    --color-background: #010901;
+    --color-menu: #042003;
+    --color-text: #e8fde8;
+    --color-primary: #42c039;
+    --color-secondary: #6df06a;
+}

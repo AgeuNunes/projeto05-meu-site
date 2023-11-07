@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+@import url(/src/theme/colors.css);
+
+body {
+    background-color: var(--color-background);
+    width: 100vw;
+    height: 100vh;
+    color: var(--color-text);
+    margin: 0;
+    font-family: "Inter";
+    font-weight: 400;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+#boxMenu {
+    background-color: var(--color-menu);
+    width: 25%;
+    border-radius: 0 25px 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-height: 100%;
+}
+
+#fotoPerfil {
+    width: 40%;
+    margin: 20% 0;
+    border-radius: 50%;
+}
+
+#boxMenu nav {
+    width: 80%;
+}
+
+#boxMenu a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.buttonMenu {
+    text-decoration: none;
+    color: var(--color-text);
+    transition: letter-spacing .2s, font-weight .2s;
+}
+
+.buttonMenu:hover {
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+
+.buttonMenuAtivo {
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+
+#boxMenu hr {
+    background-image: linear-gradient(to right, transparent, var(--color-primary), transparent);
+    width: 100%;
+    height: 1%;
+    border: none;
+    margin: 10% 0;
+}
+
+#boxButtonsMedia {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 10%;
+    margin: 10% 0;
+}
+
+.buttonMedia {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    fill: var(--color-primary);
+    transition: fill .2s;
+}
+
+.buttonMedia:hover {
+    fill: var(--color-secondary);
+}
+
+#boxBody {
+    width: 100%;
+}

@@ -1,0 +1,55 @@
+/* #geometria1 {
+    position: fixed;
+    right: 300px;
+    fill: var(--color-menu);
+}
+
+#geometria2 {
+    position: fixed;
+    left: 580px;
+    bottom: 260px;
+    fill: var(--color-menu);
+}
+
+#geometria3 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    fill: var(--color-background);
+    stroke: var(--color-menu);
+} */
+
+#boxConteudo {
+    margin: 10% 5%;
+    text-align: center;
+}
+
+#boxConteudo h1 {
+    margin-top: 15%;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#boxConteudo h2 {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+#boxConteudo p {
+    margin-top: 5%;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+#boxConteudo a {
+    margin: 0;
+    font-size: 25px;
+    color: var(--color-secondary);
+    transition: letter-spacing .2s;
+}
+
+#boxConteudo a:hover {
+    letter-spacing: 4px;
+}
