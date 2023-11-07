@@ -22,6 +22,9 @@
 #boxConteudo {
     margin: 10% 5%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #boxConteudo h1 {
@@ -54,6 +57,13 @@
     letter-spacing: 4px;
 }
 
+#boxButtonsMedia2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30% 0;
+    width: 20%;
+}
+
 @media (max-width: 860px) {
 
     #boxConteudo h1 {
@@ -67,5 +77,12 @@
     #boxConteudo p,
     #boxConteudo a {
         font-size: 20px;
+    }
+}
+
+@media (min-width: 860px) {
+
+    #boxButtonsMedia2 {
+        display: none;
     }
 }
