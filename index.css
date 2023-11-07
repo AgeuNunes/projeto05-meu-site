@@ -62,17 +62,28 @@
     border-radius: 50%;
 }
 
-h1 {
+#boxConteudo h1 {
     font-size: 50px;
     font-weight: 800;
 }
 
-h1 b {
+#boxConteudo h1 b {
     color: var(--color-primary);
 }
 
-h2 {
+#boxConteudo h2 {
     font-weight: 400;
+}
+
+@media (max-width: 860px) {
+
+    #boxConteudo h1 {
+        font-size: 30px;
+    }
+
+    #boxConteudo h2 {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 860px) {

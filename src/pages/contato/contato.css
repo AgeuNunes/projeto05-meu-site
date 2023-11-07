@@ -53,3 +53,19 @@
 #boxConteudo a:hover {
     letter-spacing: 4px;
 }
+
+@media (max-width: 860px) {
+
+    #boxConteudo h1 {
+        font-size: 30px;
+    }
+
+    #boxConteudo h2 {
+        font-size: 25px;
+    }
+
+    #boxConteudo p,
+    #boxConteudo a {
+        font-size: 20px;
+    }
+}
