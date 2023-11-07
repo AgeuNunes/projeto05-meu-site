@@ -30,3 +30,10 @@
     margin-bottom: 5%;
     line-height: 150%;
 }
+
+@media (max-width: 860px) {
+
+    #boxConteudo p {
+        font-size: 20px;
+    }
+}

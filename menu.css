@@ -87,3 +87,42 @@ body {
 #boxBody {
     width: 100%;
 }
+
+@media (max-width: 860px) {
+
+    body {
+        flex-direction: column;
+    }
+
+    body #boxMenu {
+        width: 100%;
+        height: 10%;
+        border-radius: 0 0px 25px 25px;
+        display: flex;
+        justify-content: center;
+    }
+
+    body #fotoPerfil {
+        display: none;
+    }
+
+    body #boxMenu nav {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 5% 0;
+        font-size: 15px;
+    }
+
+    body #boxMenu hr {
+        width: 1%;
+        height: 100%;
+        margin: 0;
+        background-image: linear-gradient(to right, transparent, var(--color-primary), transparent);
+    }
+
+    body #boxButtonsMedia {
+        display: none;
+    }
+}

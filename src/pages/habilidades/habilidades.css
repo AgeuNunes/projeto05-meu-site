@@ -45,3 +45,19 @@
     max-width: 80px;
     height: 80px;
 }
+
+@media (max-width: 860px) {
+
+    #boxConteudo h1 {
+        font-size: 20px;
+    }
+
+    .habilidade img {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .habilidade label {
+        font-size: 13px;
+    }
+}
