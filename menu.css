@@ -97,7 +97,7 @@ body {
     body #boxMenu {
         width: 100%;
         height: 8%;
-        border-radius: 0 0px 25px 25px;
+        border-radius: 0 0px 18px 18px;
         display: flex;
         justify-content: center;
         position: fixed;

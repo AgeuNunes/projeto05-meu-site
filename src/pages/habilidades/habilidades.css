@@ -20,7 +20,7 @@
 } */
 
 #boxConteudo {
-    margin: 10% 5%;
+    margin: 5%;
 }
 
 #boxConteudo h1 {
@@ -35,7 +35,6 @@
 }
 
 .habilidade {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,10 +46,23 @@
     height: 80px;
 }
 
+#boxConteudo p {
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 50px;
+    margin-bottom: 5%;
+    line-height: 150%;
+}
+
+.outraHabilidade {
+    max-width: 50px;
+    height: 50px;
+}
+
 @media (max-width: 860px) {
 
     #boxConteudo {
-        margin-top: 18%;
+        margin-top: 13%;
     }
 
     #boxConteudo h1 {
@@ -68,5 +80,15 @@
 
     .habilidade label {
         font-size: 10px;
+    }
+
+    .outraHabilidade {
+        max-width: 20px;
+        height: 20px;
+    }
+
+    #boxConteudo p {
+        font-size: 15px;
+        margin-bottom: 10%;
     }
 }
