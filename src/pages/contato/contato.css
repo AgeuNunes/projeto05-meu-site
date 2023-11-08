@@ -34,6 +34,10 @@
     font-weight: 800;
 }
 
+#boxConteudo h1 b {
+    color: var(--color-primary);
+}
+
 #boxConteudo h2 {
     margin: 0;
     font-size: 35px;
@@ -66,17 +70,21 @@
 
 @media (max-width: 860px) {
 
+    #boxConteudo {
+        margin-top: 18%;
+    }
+
     #boxConteudo h1 {
         font-size: 30px;
     }
 
     #boxConteudo h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #boxConteudo p,
     #boxConteudo a {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 

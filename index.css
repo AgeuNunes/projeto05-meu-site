@@ -77,6 +77,10 @@
 
 @media (max-width: 860px) {
 
+    #boxConteudo {
+        margin-top: 18%;
+    }
+
     #boxConteudo h1 {
         font-size: 30px;
     }

@@ -33,6 +33,10 @@
 
 @media (max-width: 860px) {
 
+    #boxConteudo {
+        margin-top: 18%;
+    }
+
     #boxConteudo p {
         font-size: 15px;
     }

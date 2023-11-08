@@ -31,6 +31,7 @@
 .boxHabilidades {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 5%;
 }
 
 .habilidade {
@@ -48,8 +49,16 @@
 
 @media (max-width: 860px) {
 
+    #boxConteudo {
+        margin-top: 18%;
+    }
+
     #boxConteudo h1 {
         font-size: 15px;
+    }
+
+    .boxHabilidades {
+        margin-bottom: 10%;
     }
 
     .habilidade img {
