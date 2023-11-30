@@ -2,6 +2,7 @@
 @import url(/src/theme/colors.css);
 
 body {
+    /* background-image: url(/src/img/fundo.jpg); */
     background-color: var(--color-background);
     width: 100vw;
     height: 100vh;
@@ -11,6 +12,18 @@ body {
     font-weight: 400;
     letter-spacing: 2px;
     display: flex;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(/src/img/fundo.jpg);
+    opacity: 0.1;
+    z-index: -1;
 }
 
 #boxMenu {
